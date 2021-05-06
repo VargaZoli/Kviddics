@@ -1,0 +1,39 @@
+body {  
+    background-image: url(img/background.png);
+}
+
+ .center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    background-color: rgba(125, 24, 51, 70%);
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    
+    padding: 00px;
+    margin: auto;
+    width: 60%;
+    padding: 00px;
+    background-color: rgba(125, 24, 51, 70%);
+  border-color: yellow 7px;
+  }
+  
+  .grid-container > div {
+    
+    text-align: center;
+    padding: 00px 0;
+    font-size: 30px;
+  }
+  
+  .item1 {
+    grid-row: 1 / 4;
+  }
+  img {
+    border: 7px solid yellow    ;
+  }
+.Cím1 {
+    border-bottom:solid white;
+}
